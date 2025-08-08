@@ -7,7 +7,6 @@
     "resolveJsonModule": true,
     "outDir": "dist"
   },
-  // "include": ["**/*.ts"],
   "include": ["index.ts", "lib", "routes"],
   "exclude": ["node_modules", "dist"]
 }

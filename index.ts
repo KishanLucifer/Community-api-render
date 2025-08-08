@@ -57,11 +57,6 @@ app.use(
   }
 );
 
-// 404 handler
-app.all("*", (req, res) => {
-  res.status(404).json({ message: "API endpoint not found" });
-});
-
 // Start server
 if (process.env.NODE_ENV !== "production") {
   app.listen(PORT, () => {
