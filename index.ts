@@ -18,7 +18,7 @@ connectDB().catch((err) => {
 // CORS configuration for separate frontend
 app.use(
   cors({
-    origin: ["https://community-final.vercel.app", "http://localhost:3000"],
+    origin: ["https://community-client-one.vercel.app", "http://localhost:3000"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
