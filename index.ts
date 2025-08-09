@@ -19,7 +19,7 @@ connectDB().catch((err) => {
 app.use(
   cors({
     origin: [
-      "https://client-nine-gamma-75.vercel.app/",
+      "https://client-nine-gamma-75.vercel.app",
       "http://localhost:3000",
     ],
     credentials: true,
